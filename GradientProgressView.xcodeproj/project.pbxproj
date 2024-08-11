@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D903DB9C2C68F0580091F14A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D903DB9B2C68F0580091F14A /* AppDelegate.swift */; };
+		D903DB9E2C68F0580091F14A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D903DB9D2C68F0580091F14A /* SceneDelegate.swift */; };
+		D903DBA02C68F0580091F14A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D903DB9F2C68F0580091F14A /* ViewController.swift */; };
+		D903DBA32C68F0580091F14A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D903DBA12C68F0580091F14A /* Main.storyboard */; };
+		D903DBA62C68F0580091F14A /* GradientProgressView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D903DBA42C68F0580091F14A /* GradientProgressView.xcdatamodeld */; };
+		D903DBA82C68F0590091F14A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D903DBA72C68F0590091F14A /* Assets.xcassets */; };
+		D903DBAB2C68F0590091F14A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D903DBA92C68F0590091F14A /* LaunchScreen.storyboard */; };
+		D903DBB62C68F05A0091F14A /* GradientProgressViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D903DBB52C68F05A0091F14A /* GradientProgressViewTests.swift */; };
+		D903DBC02C68F05A0091F14A /* GradientProgressViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D903DBBF2C68F05A0091F14A /* GradientProgressViewUITests.swift */; };
+		D903DBC22C68F05A0091F14A /* GradientProgressViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D903DBC12C68F05A0091F14A /* GradientProgressViewUITestsLaunchTests.swift */; };
+		D903DBCF2C68F0660091F14A /* GradientProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D903DBCE2C68F0660091F14A /* GradientProgressView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D903DBB22C68F05A0091F14A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D903DB902C68F0580091F14A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D903DB972C68F0580091F14A;
+			remoteInfo = GradientProgressView;
+		};
+		D903DBBC2C68F05A0091F14A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D903DB902C68F0580091F14A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D903DB972C68F0580091F14A;
+			remoteInfo = GradientProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D903DB982C68F0580091F14A /* GradientProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradientProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D903DB9B2C68F0580091F14A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D903DB9D2C68F0580091F14A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D903DB9F2C68F0580091F14A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D903DBA22C68F0580091F14A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D903DBA52C68F0580091F14A /* GradientProgressView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GradientProgressView.xcdatamodel; sourceTree = "<group>"; };
+		D903DBA72C68F0590091F14A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D903DBAA2C68F0590091F14A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D903DBAC2C68F0590091F14A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D903DBB12C68F05A0091F14A /* GradientProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D903DBB52C68F05A0091F14A /* GradientProgressViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientProgressViewTests.swift; sourceTree = "<group>"; };
+		D903DBBB2C68F05A0091F14A /* GradientProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D903DBBF2C68F05A0091F14A /* GradientProgressViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientProgressViewUITests.swift; sourceTree = "<group>"; };
+		D903DBC12C68F05A0091F14A /* GradientProgressViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientProgressViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D903DBCE2C68F0660091F14A /* GradientProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientProgressView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D903DB952C68F0580091F14A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D903DBAE2C68F05A0091F14A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D903DBB82C68F05A0091F14A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D903DB8F2C68F0580091F14A = {
+			isa = PBXGroup;
+			children = (
+				D903DB9A2C68F0580091F14A /* GradientProgressView */,
+				D903DBB42C68F05A0091F14A /* GradientProgressViewTests */,
+				D903DBBE2C68F05A0091F14A /* GradientProgressViewUITests */,
+				D903DB992C68F0580091F14A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D903DB992C68F0580091F14A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D903DB982C68F0580091F14A /* GradientProgressView.app */,
+				D903DBB12C68F05A0091F14A /* GradientProgressViewTests.xctest */,
+				D903DBBB2C68F05A0091F14A /* GradientProgressViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D903DB9A2C68F0580091F14A /* GradientProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				D903DB9B2C68F0580091F14A /* AppDelegate.swift */,
+				D903DB9D2C68F0580091F14A /* SceneDelegate.swift */,
+				D903DB9F2C68F0580091F14A /* ViewController.swift */,
+				D903DBCE2C68F0660091F14A /* GradientProgressView.swift */,
+				D903DBA12C68F0580091F14A /* Main.storyboard */,
+				D903DBA72C68F0590091F14A /* Assets.xcassets */,
+				D903DBA92C68F0590091F14A /* LaunchScreen.storyboard */,
+				D903DBAC2C68F0590091F14A /* Info.plist */,
+				D903DBA42C68F0580091F14A /* GradientProgressView.xcdatamodeld */,
+			);
+			path = GradientProgressView;
+			sourceTree = "<group>";
+		};
+		D903DBB42C68F05A0091F14A /* GradientProgressViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D903DBB52C68F05A0091F14A /* GradientProgressViewTests.swift */,
+			);
+			path = GradientProgressViewTests;
+			sourceTree = "<group>";
+		};
+		D903DBBE2C68F05A0091F14A /* GradientProgressViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D903DBBF2C68F05A0091F14A /* GradientProgressViewUITests.swift */,
+				D903DBC12C68F05A0091F14A /* GradientProgressViewUITestsLaunchTests.swift */,
+			);
+			path = GradientProgressViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D903DB972C68F0580091F14A /* GradientProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D903DBC52C68F05A0091F14A /* Build configuration list for PBXNativeTarget "GradientProgressView" */;
+			buildPhases = (
+				D903DB942C68F0580091F14A /* Sources */,
+				D903DB952C68F0580091F14A /* Frameworks */,
+				D903DB962C68F0580091F14A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GradientProgressView;
+			productName = GradientProgressView;
+			productReference = D903DB982C68F0580091F14A /* GradientProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D903DBB02C68F05A0091F14A /* GradientProgressViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D903DBC82C68F05A0091F14A /* Build configuration list for PBXNativeTarget "GradientProgressViewTests" */;
+			buildPhases = (
+				D903DBAD2C68F05A0091F14A /* Sources */,
+				D903DBAE2C68F05A0091F14A /* Frameworks */,
+				D903DBAF2C68F05A0091F14A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D903DBB32C68F05A0091F14A /* PBXTargetDependency */,
+			);
+			name = GradientProgressViewTests;
+			productName = GradientProgressViewTests;
+			productReference = D903DBB12C68F05A0091F14A /* GradientProgressViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D903DBBA2C68F05A0091F14A /* GradientProgressViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D903DBCB2C68F05A0091F14A /* Build configuration list for PBXNativeTarget "GradientProgressViewUITests" */;
+			buildPhases = (
+				D903DBB72C68F05A0091F14A /* Sources */,
+				D903DBB82C68F05A0091F14A /* Frameworks */,
+				D903DBB92C68F05A0091F14A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D903DBBD2C68F05A0091F14A /* PBXTargetDependency */,
+			);
+			name = GradientProgressViewUITests;
+			productName = GradientProgressViewUITests;
+			productReference = D903DBBB2C68F05A0091F14A /* GradientProgressViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D903DB902C68F0580091F14A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D903DB972C68F0580091F14A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					D903DBB02C68F05A0091F14A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D903DB972C68F0580091F14A;
+					};
+					D903DBBA2C68F05A0091F14A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D903DB972C68F0580091F14A;
+					};
+				};
+			};
+			buildConfigurationList = D903DB932C68F0580091F14A /* Build configuration list for PBXProject "GradientProgressView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D903DB8F2C68F0580091F14A;
+			productRefGroup = D903DB992C68F0580091F14A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D903DB972C68F0580091F14A /* GradientProgressView */,
+				D903DBB02C68F05A0091F14A /* GradientProgressViewTests */,
+				D903DBBA2C68F05A0091F14A /* GradientProgressViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D903DB962C68F0580091F14A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D903DBAB2C68F0590091F14A /* LaunchScreen.storyboard in Resources */,
+				D903DBA82C68F0590091F14A /* Assets.xcassets in Resources */,
+				D903DBA32C68F0580091F14A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D903DBAF2C68F05A0091F14A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D903DBB92C68F05A0091F14A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D903DB942C68F0580091F14A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D903DBA02C68F0580091F14A /* ViewController.swift in Sources */,
+				D903DBA62C68F0580091F14A /* GradientProgressView.xcdatamodeld in Sources */,
+				D903DB9C2C68F0580091F14A /* AppDelegate.swift in Sources */,
+				D903DBCF2C68F0660091F14A /* GradientProgressView.swift in Sources */,
+				D903DB9E2C68F0580091F14A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D903DBAD2C68F05A0091F14A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D903DBB62C68F05A0091F14A /* GradientProgressViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D903DBB72C68F05A0091F14A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D903DBC22C68F05A0091F14A /* GradientProgressViewUITestsLaunchTests.swift in Sources */,
+				D903DBC02C68F05A0091F14A /* GradientProgressViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D903DBB32C68F05A0091F14A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D903DB972C68F0580091F14A /* GradientProgressView */;
+			targetProxy = D903DBB22C68F05A0091F14A /* PBXContainerItemProxy */;
+		};
+		D903DBBD2C68F05A0091F14A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D903DB972C68F0580091F14A /* GradientProgressView */;
+			targetProxy = D903DBBC2C68F05A0091F14A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D903DBA12C68F0580091F14A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D903DBA22C68F0580091F14A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D903DBA92C68F0590091F14A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D903DBAA2C68F0590091F14A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D903DBC32C68F05A0091F14A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D903DBC42C68F05A0091F14A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D903DBC62C68F05A0091F14A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GradientProgressView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.GradientProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D903DBC72C68F05A0091F14A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GradientProgressView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.GradientProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D903DBC92C68F05A0091F14A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.GradientProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GradientProgressView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GradientProgressView";
+			};
+			name = Debug;
+		};
+		D903DBCA2C68F05A0091F14A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.GradientProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GradientProgressView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GradientProgressView";
+			};
+			name = Release;
+		};
+		D903DBCC2C68F05A0091F14A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.GradientProgressViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GradientProgressView;
+			};
+			name = Debug;
+		};
+		D903DBCD2C68F05A0091F14A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.GradientProgressViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GradientProgressView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D903DB932C68F0580091F14A /* Build configuration list for PBXProject "GradientProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D903DBC32C68F05A0091F14A /* Debug */,
+				D903DBC42C68F05A0091F14A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D903DBC52C68F05A0091F14A /* Build configuration list for PBXNativeTarget "GradientProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D903DBC62C68F05A0091F14A /* Debug */,
+				D903DBC72C68F05A0091F14A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D903DBC82C68F05A0091F14A /* Build configuration list for PBXNativeTarget "GradientProgressViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D903DBC92C68F05A0091F14A /* Debug */,
+				D903DBCA2C68F05A0091F14A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D903DBCB2C68F05A0091F14A /* Build configuration list for PBXNativeTarget "GradientProgressViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D903DBCC2C68F05A0091F14A /* Debug */,
+				D903DBCD2C68F05A0091F14A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D903DBA42C68F0580091F14A /* GradientProgressView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D903DBA52C68F0580091F14A /* GradientProgressView.xcdatamodel */,
+			);
+			currentVersion = D903DBA52C68F0580091F14A /* GradientProgressView.xcdatamodel */;
+			path = GradientProgressView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D903DB902C68F0580091F14A /* Project object */;
+}
